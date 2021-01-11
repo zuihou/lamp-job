@@ -35,11 +35,12 @@
 
 - 依赖的版本调整为跟lamp项目保持一致
 - xxl-job-admin
-    - 新增JobInfoController#save接口
+  - 新增JobInfoController#save接口
 - xxl-job-core 无任何改动
 - xxl-job-executor 删除官方提供的例子，并新建适配lamp项目的执行器。
   - lamp-base-executor： 处理base库相关定时任务的执行器
   - lamp-extend-executor： 处理extend库相关定时任务的执行器
+- 若您使用的是lamp-boot项目，则无需使用lamp-extend-executor模块！
 
 **切记:使用本项目之前，先下载并编译 [lamp-util](https://github.com/zuihou/lamp-util) ， 然后在编译 [lamp-cloud](https://github.com/zuihou/lamp-cloud)**
 

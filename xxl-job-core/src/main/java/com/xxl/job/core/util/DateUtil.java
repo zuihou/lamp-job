@@ -61,6 +61,10 @@ public class DateUtil {
         return format(date, CRON_FORMAT);
     }
 
+    public static String getCron(String date) {
+        return format(parseDateTime(date), CRON_FORMAT);
+    }
+
     /**
      * 转换 LocalDateTime 为 cron , eg.  "0 07 10 15 1 ? 2016"
      *

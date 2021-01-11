@@ -1,7 +1,6 @@
 package com.xxl.job.admin.controller.vo;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -34,7 +33,7 @@ public class XxlJobInfoVO implements Serializable {
     /**
      * 调度时间
      */
-    private LocalDateTime scheduleTime;
+    private String scheduleTime;
     /**
      * 调度过期策略
      */
@@ -222,11 +221,11 @@ public class XxlJobInfoVO implements Serializable {
         this.childJobId = childJobId;
     }
 
-    public LocalDateTime getScheduleTime() {
+    public String getScheduleTime() {
         return scheduleTime;
     }
 
-    public void setScheduleTime(LocalDateTime scheduleTime) {
+    public void setScheduleTime(String scheduleTime) {
         this.scheduleTime = scheduleTime;
     }
 
