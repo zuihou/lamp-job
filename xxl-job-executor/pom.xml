@@ -11,8 +11,8 @@
     <artifactId>xxl-job-executor</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <lamp-util.version>3.0.1</lamp-util.version>
-        <lamp-project.version>3.0.1-SNAPSHOT</lamp-project.version>
+        <lamp-util.version>3.0.2</lamp-util.version>
+        <lamp-project.version>3.0.2-SNAPSHOT</lamp-project.version>
     </properties>
     <modules>
         <module>lamp-base-executor</module>
