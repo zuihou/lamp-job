@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>lamp-job</artifactId>
-        <version>3.1.1-SNAPSHOT</version>
+        <version>3.1.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>xxl-job-executor</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <lamp-util.version>3.1.1</lamp-util.version>
-        <lamp-project.version>3.1.1-SNAPSHOT</lamp-project.version>
+        <lamp-util.version>3.1.2</lamp-util.version>
+        <lamp-project.version>3.1.2-SNAPSHOT</lamp-project.version>
     </properties>
     <modules>
         <module>lamp-base-executor</module>
