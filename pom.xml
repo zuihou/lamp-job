@@ -1,19 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.xuxueli</groupId>
-	<artifactId>lamp-job</artifactId>
-	<version>3.2.1</version>
-	<packaging>pom</packaging>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.xuxueli</groupId>
+    <artifactId>lamp-job</artifactId>
+    <version>3.2.2</version>
+    <packaging>pom</packaging>
 
-	<name>${project.artifactId}</name>
-	<description>A distributed task scheduling framework.</description>
-	<url>https://github.com/zuihou</url>
+    <name>${project.artifactId}</name>
+    <description>A distributed task scheduling framework.</description>
+    <url>https://github.com/zuihou</url>
 
-	<modules>
-		<module>xxl-job-core</module>
-		<module>xxl-job-admin</module>
-		<module>xxl-job-executor</module>
+    <modules>
+        <module>xxl-job-core</module>
+        <module>xxl-job-admin</module>
+        <module>xxl-job-executor</module>
     </modules>
 
 	<properties>
