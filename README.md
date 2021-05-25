@@ -40,6 +40,7 @@
 | --- | --- | --- | --- |
 | 微服务版(后端) | [lamp-cloud](https://gitee.com/zuihou111/lamp-cloud) | [lamp-cloud](https://github.com/zuihou/lamp-cloud) | SpringCloud 版 |
 | 单体版(后端) | [lamp-boot](https://gitee.com/zuihou111/lamp-boot) | [lamp-boot](https://github.com/zuihou/lamp-boot) | SpringBoot 版(和 lamp-cloud 功能基本一致) |
+| 微服务版示例 | [lamp-samples](https://github.com/zuihou/lamp-samples) | [lamp-samples](https://github.com/zuihou/lamp-samples) | 常用示例 |
 
 ### 前端 （下面3个项目功能一致，任选其一即可）
 
