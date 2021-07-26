@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>xxl-job-executor</artifactId>
-        <version>3.3.0</version>
+        <version>3.4.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>lamp-extend-executor</artifactId>
@@ -26,7 +26,7 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>com.tangyh.basic</groupId>
+                <groupId>top.tangyh.basic</groupId>
                 <artifactId>lamp-dependencies</artifactId>
                 <version>${lamp-util.version}</version>
                 <type>pom</type>
@@ -37,32 +37,32 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.tangyh.basic</groupId>
-            <artifactId>lamp-boot</artifactId>
+            <groupId>top.tangyh.basic</groupId>
+            <artifactId>lamp-boot-util</artifactId>
             <version>${lamp-util.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.tangyh.basic</groupId>
+            <groupId>top.tangyh.basic</groupId>
             <artifactId>lamp-log-starter</artifactId>
             <version>${lamp-util.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.tangyh.basic</groupId>
+            <groupId>top.tangyh.basic</groupId>
             <artifactId>lamp-databases</artifactId>
             <version>${lamp-util.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.tangyh.lamp</groupId>
+            <groupId>top.tangyh.lamp</groupId>
             <artifactId>lamp-tenant-biz</artifactId>
             <version>${lamp-project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.tangyh.lamp</groupId>
+            <groupId>top.tangyh.lamp</groupId>
             <artifactId>lamp-authority-biz</artifactId>
             <version>${lamp-project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.tangyh.lamp</groupId>
+            <groupId>top.tangyh.lamp</groupId>
             <artifactId>lamp-sms-biz</artifactId>
             <version>${lamp-project.version}</version>
         </dependency>

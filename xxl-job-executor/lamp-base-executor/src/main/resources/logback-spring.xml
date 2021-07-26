@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <include resource="com/tangyh/basic/log/logback/defaults.xml"/>
+    <include resource="top.tangyh.basic/log/logback/defaults.xml"/>
 
     <springProfile name="test,docker,prod">
         <logger name="com.xxl.job.admin" additivity="true" level="WARN">
