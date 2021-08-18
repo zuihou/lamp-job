@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <include resource="top.tangyh.basic/log/logback/defaults.xml"/>
+    <include resource="logback/defaults-async.xml"/>
 
-    <springProfile name="test,docker,prod">
-        <logger name="com.xxl.job.admin" additivity="true" level="WARN">
-            <appender-ref ref="ASYNC_PROJECT_APPENDER"/>
-        </logger>
-    </springProfile>
-
-    <springProfile name="dev">
-        <logger name="com.xxl.job.admin" additivity="true" level="WARN">
-            <appender-ref ref="PROJECT_APPENDER"/>
-        </logger>
-    </springProfile>
-
+    <logger name="com.xxl.job.admin" additivity="true" level="WARN">
+        <appender-ref ref="ASYNC_PROJECT_APPENDER"/>
+    </logger>
 </configuration>
