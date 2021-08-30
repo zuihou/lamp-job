@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>xxl-job-executor</artifactId>
-        <version>3.5.0</version>
+        <version>3.5.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>lamp-base-executor</artifactId>
