@@ -86,7 +86,7 @@
 
 > 如何编译: mvn clean install
 
-
+http://localhost:8767/xxl-job-admin/static/adminlte/dist/js/adminlte.min.js
 # 友情链接 & 特别鸣谢
 * 微服务快速开发平台：[https://github.com/zuihou/lamp-cloud](https://github.com/zuihou/lamp-cloud)
 * 单体快速开发平台：[https://github.com/zuihou/lamp-boot](https://github.com/zuihou/lamp-boot)
