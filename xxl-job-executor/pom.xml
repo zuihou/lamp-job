@@ -5,18 +5,24 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>lamp-job</artifactId>
-        <version>3.8.1</version>
+        <version>4.16.0-java17</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>xxl-job-executor</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <lamp-util.version>3.8.1</lamp-util.version>
-        <lamp-project.version>3.8.1</lamp-project.version>
+        <lamp-util.version>4.16.0-java17</lamp-util.version>
+        <lamp-project.version>4.16.0-java17</lamp-project.version>
     </properties>
     <modules>
-        <module>lamp-base-executor</module>
-        <module>lamp-extend-executor</module>
+        <!-- 先看 README.md， 请勿同时使用以下任意2个模块 -->
+        <module>lamp-none-executor</module>
     </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>

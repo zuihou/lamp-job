@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.internet.MimeMessage;
 import java.text.MessageFormat;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -32,6 +32,7 @@ public class EmailJobAlarm implements JobAlarm {
      *
      * @param jobLog
      */
+    @Override
     public boolean doAlarm(XxlJobInfo info, XxlJobLog jobLog){
         boolean alarmResult = true;
 

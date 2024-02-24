@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-
-    <include resource="logback/defaults-async.xml"/>
-
-    <logger name="com.xxl.job.admin" additivity="true" level="WARN">
-        <appender-ref ref="ASYNC_PROJECT_APPENDER"/>
-    </logger>
-</configuration>

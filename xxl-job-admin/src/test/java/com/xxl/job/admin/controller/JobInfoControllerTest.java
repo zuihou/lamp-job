@@ -3,16 +3,19 @@ package com.xxl.job.admin.controller;
 import com.xxl.job.admin.service.LoginService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 
-import javax.servlet.http.Cookie;
+import jakarta.servlet.http.Cookie;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 
 public class JobInfoControllerTest extends AbstractSpringMvcTest {
+  private static Logger logger = LoggerFactory.getLogger(JobInfoControllerTest.class);
 
   private Cookie cookie;
 
@@ -41,7 +44,7 @@ public class JobInfoControllerTest extends AbstractSpringMvcTest {
             .cookie(cookie)
     ).andReturn();
 
-    System.out.println(ret.getResponse().getContentAsString());
+    logger.info(ret.getResponse().getContentAsString());
   }
 
 }
