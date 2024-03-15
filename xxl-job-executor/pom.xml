@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>lamp-job</artifactId>
-        <version>4.16.0-java17</version>
+        <version>4.17.0-java17</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>xxl-job-executor</artifactId>
     <packaging>pom</packaging>
     <properties>
-        <lamp-util.version>4.16.0-java17</lamp-util.version>
-        <lamp-project.version>4.16.0-java17</lamp-project.version>
+        <lamp-util.version>4.17.0-java17</lamp-util.version>
+        <lamp-project.version>4.17.0-java17</lamp-project.version>
     </properties>
     <modules>
         <!-- 先看 README.md， 请勿同时使用以下任意2个模块 -->

@@ -3,14 +3,14 @@
 	<parent>
 		<groupId>top.tangyh.basic</groupId>
 		<artifactId>lamp-parent</artifactId>
-		<version>4.16.0-java17</version>
+		<version>4.17.0-java17</version>
 		<relativePath/>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.xuxueli</groupId>
 	<artifactId>lamp-job</artifactId>
-	<version>4.16.0-java17</version>
+	<version>4.17.0-java17</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -41,7 +41,7 @@
 <!--		<mysql.version>8.0.29</mysql.version>-->
 
 		<slf4j-api.version>1.7.30</slf4j-api.version>
-		<junit.version>4.16.0-java17</junit.version>
+		<junit.version>4.17.0-java17</junit.version>
 		<jakarta.annotation-api.version>2.1.1</jakarta.annotation-api.version>
 
 		<groovy.version>4.0.0</groovy.version>

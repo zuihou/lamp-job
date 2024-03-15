@@ -4,7 +4,7 @@
 	<parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>lamp-job</artifactId>
-        <version>4.16.0-java17</version>
+        <version>4.17.0-java17</version>
     </parent>
 	<artifactId>xxl-job-admin</artifactId>
 	<packaging>jar</packaging>
