@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
+import top.tangyh.basic.validator.annotation.EnableFormValidator;
 
 import static top.tangyh.lamp.common.constant.BizConstant.BUSINESS_PACKAGE;
 import static top.tangyh.lamp.common.constant.BizConstant.UTIL_PACKAGE;
@@ -18,6 +19,7 @@ import static top.tangyh.lamp.common.constant.BizConstant.UTIL_PACKAGE;
 @EnableFeignClients({
 		BUSINESS_PACKAGE
 })
+@EnableFormValidator
 public class NoneExecutorServerApplication {
 
 	public static void main(String[] args) {

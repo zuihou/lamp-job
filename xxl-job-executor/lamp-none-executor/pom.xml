@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.xuxueli</groupId>
         <artifactId>xxl-job-executor</artifactId>
-        <version>4.17.0-java17</version>
+        <version>4.21.1-java17</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>lamp-none-executor</artifactId>
@@ -93,7 +93,7 @@
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
