@@ -2,24 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-        <groupId>com.xuxueli</groupId>
-        <artifactId>lamp-job</artifactId>
-        <version>4.21.2-java17</version>
-    </parent>
+		<groupId>com.xuxueli</groupId>
+		<artifactId>lamp-job</artifactId>
+		<version>5.0.1</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 	<artifactId>xxl-job-admin</artifactId>
 	<packaging>jar</packaging>
-
-<!--	<dependencyManagement>-->
-<!--		<dependencies>-->
-<!--			<dependency>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-starter-parent</artifactId>-->
-<!--				<version>${spring-boot.version}</version>-->
-<!--				<type>pom</type>-->
-<!--				<scope>import</scope>-->
-<!--			</dependency>-->
-<!--		</dependencies>-->
-<!--	</dependencyManagement>-->
 
 	<dependencies>
 

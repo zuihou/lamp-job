@@ -1,16 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
+		<!-- 该依赖位于 lamp-util 项目，请先编译lamp-util -->
 		<groupId>top.tangyh.basic</groupId>
 		<artifactId>lamp-parent</artifactId>
-		<version>4.21.2-java17</version>
+		<version>5.0.1</version>
 		<relativePath/>
 	</parent>
+
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.xuxueli</groupId>
 	<artifactId>lamp-job</artifactId>
-	<version>4.21.2-java17</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
@@ -18,9 +19,7 @@
 	<url>https://github.com/zuihou</url>
 
 	<modules>
-		<module>xxl-job-core</module>
 		<module>xxl-job-admin</module>
-		<module>xxl-job-executor</module>
     </modules>
 
 	<properties>
