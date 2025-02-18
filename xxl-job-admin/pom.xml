@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.xuxueli</groupId>
 		<artifactId>lamp-job</artifactId>
-		<version>5.0.3</version>
+		<version>5.0.4</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>xxl-job-admin</artifactId>
@@ -57,7 +57,7 @@
 
 		<!-- xxl-job-core -->
 		<dependency>
-			<groupId>com.xuxueli</groupId>
+			<groupId>top.tangyh.basic</groupId>
 			<artifactId>xxl-job-core</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
