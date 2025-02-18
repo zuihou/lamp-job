@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.xuxueli</groupId>
 		<artifactId>lamp-job</artifactId>
-		<version>5.0.4</version>
+		<version>5.0.5</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>xxl-job-admin</artifactId>
