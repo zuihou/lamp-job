@@ -4,7 +4,7 @@
 		<!-- 该依赖位于 lamp-util 项目，请先编译lamp-util -->
 		<groupId>top.tangyh.basic</groupId>
 		<artifactId>lamp-parent</artifactId>
-		<version>5.4.0</version>
+		<version>5.6.0</version>
 		<relativePath/>
 	</parent>
 
